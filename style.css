@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  background-image: url("img/bg1.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.bnr {
+  text-align: left;
+  margin-right: 60%;
+  padding: 200px 120px;
+}
+.bnr-hdline {
+    font-weight: 700;
+    font-size: 40px;
+  margin-bottom: 15px;
+  color: #151414;
+}
+.bnr-desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 20px;
+}
+.btn{
+    color: white;
+    background-color: blueviolet;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 15px;
+}
+.myfail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+}
+.myfail-info{
+  margin-right: 60px;
+  padding: 50px;
+  text-align: left;
+}
+.myfail-tittle{
+  font-weight: 700;
+font-size: 40px;
+color: #151414;
+margin-bottom: 20px;
+
+}
+.myfail-desc{
+  font-weight: 400;
+font-size: 16px;
+color: #444343;
+line-height: 26px;
+margin-bottom: 10px;
+}
+.myfail-info li{
+  font-weight: 400;
+font-size: 16px;
+color: #444343;
+margin-top: 8px;
+list-style-type: "✓ "
+}
