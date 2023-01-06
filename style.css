@@ -64,3 +64,37 @@ color: #444343;
 margin-top: 8px;
 list-style-type: "✓ "
 }
+
+.myplan{
+  padding: 100px 200px;
+  text-align: center;
+}
+.myp-tittle{
+  font-weight: 700;
+font-size: 40px;
+margin-bottom: 100px;
+}
+.myplans{
+display: flex;
+justify-content: center;
+
+}
+.myplans-info{
+padding: 0 50px;
+}
+.p-topic{
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 25px;
+  color: #151414;
+}
+.p-desc{
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #737272;
+}
+.imgs{
+  width: 90px;
+  height: 90px;
+}
