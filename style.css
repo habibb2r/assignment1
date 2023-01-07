@@ -3,98 +3,168 @@
   font-family: "Open Sans", sans-serif;
 }
 .header {
-  background-image: url("img/bg1.jpg");
+  background-image: url("img/banner/banner2.png");
   background-size: cover;
-  height: 100vh;
 }
 .bnr {
-  text-align: left;
-  margin-right: 60%;
-  padding: 200px 120px;
+  text-align: right;
+  margin-left: 45%;
+  padding: 150px 200px;
 }
 .bnr-hdline {
-    font-weight: 700;
-    font-size: 40px;
-  margin-bottom: 15px;
-  color: #151414;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #000000;
 }
 .bnr-desc {
   font-weight: 400;
   font-size: 16px;
-  color: #444343;
+  color: #393638;
   margin-bottom: 20px;
+  line-height: 25px;
 }
-.btn{
-    color: white;
-    background-color: blueviolet;
-    padding: 10px 12px;
-    border-radius: 5px;
-    border: 0;
-    font-size: 15px;
+.btn {
+  color: red;
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 15px;
+  font-weight: 600;
 }
-.myfail{
+.btn:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(65, 251, 65);
+}
+.myfail {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 100px 200px;
 }
-.myfail-info{
+.myfail-info {
   margin-right: 60px;
   padding: 50px;
   text-align: left;
 }
-.myfail-tittle{
+.myfail-tittle {
   font-weight: 700;
-font-size: 40px;
-color: #151414;
-margin-bottom: 20px;
-
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 20px;
 }
-.myfail-desc{
+.myfail-desc {
   font-weight: 400;
-font-size: 16px;
-color: #444343;
-line-height: 26px;
-margin-bottom: 10px;
+  font-size: 16px;
+  color: #444343;
+  line-height: 26px;
+  margin-bottom: 10px;
 }
-.myfail-info li{
+.myfail-info li {
   font-weight: 400;
-font-size: 16px;
-color: #444343;
-margin-top: 8px;
-list-style-type: "✓ "
+  font-size: 16px;
+  color: #444343;
+  margin-top: 8px;
+  list-style-type: "✓ ";
 }
 
-.myplan{
+.myplan {
   padding: 100px 200px;
   text-align: center;
 }
-.myp-tittle{
+.myp-tittle {
   font-weight: 700;
-font-size: 40px;
-margin-bottom: 100px;
+  font-size: 40px;
+  margin-bottom: 100px;
 }
-.myplans{
-display: flex;
-justify-content: center;
-
+.myplans {
+  display: flex;
+  justify-content: center;
 }
-.myplans-info{
-padding: 0 50px;
+.myplans-info {
+  padding: 0 50px;
 }
-.p-topic{
+.p-topic {
   margin-top: 15px;
   font-weight: 700;
   font-size: 25px;
   color: #151414;
 }
-.p-desc{
+.p-desc {
   margin-top: 10px;
   font-weight: 500;
   font-size: 20px;
   color: #737272;
 }
-.imgs{
+.imgs {
   width: 90px;
   height: 90px;
+}
+.radiant-bg {
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 0, 0, 0),
+      rgba(255, 0, 0, 0.879)
+    ),
+    url("img//watch.png");
+  background-repeat: no-repeat;
+  margin: 150px 220px;
+  background-position: center;
+  border-radius: 10px;
+  border: 0;
+}
+.rad-items {
+  padding: 50px;
+  text-align: left;
+  margin-right: 60%;
+}
+.rad-tittle {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer {
+  display: flex;
+  gap: 350px;
+  justify-content: space-between;
+  padding: 150px 200px;
+  background-color: #000000;
+}
+.contact {
+  
+  text-align: left;
+}
+.f-tittle {
+  font-weight: 700;
+  font-size: 45px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.f-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.f-contact {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+.contact a{
+  margin-right: 15px;
+}
+.mesgform input[type="email"]{
+  padding: 10px 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: #ffffff;
+  background-color: #000000;
 }
