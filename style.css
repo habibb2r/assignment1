@@ -2,6 +2,9 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
+
+/* Header Section Start */
+
 .header {
   background-image: url("img/banner/banner2.png");
   background-size: cover;
@@ -37,6 +40,9 @@
   color: rgb(0, 0, 0);
   background-color: rgb(65, 251, 65);
 }
+
+/* My Failure Section */
+
 .myfail {
   display: flex;
   justify-content: center;
@@ -68,6 +74,8 @@
   margin-top: 8px;
   list-style-type: "✓ ";
 }
+
+/* My Plan Section */
 
 .myplan {
   padding: 100px 200px;
@@ -101,7 +109,11 @@
   width: 90px;
   height: 90px;
 }
-.radiant-bg {
+
+/* Radient Section */
+
+
+.gradient-bg {
   background-image: linear-gradient(
       to left,
       rgba(255, 0, 0, 0),
@@ -114,17 +126,66 @@
   border-radius: 10px;
   border: 0;
 }
-.rad-items {
+.gra-items {
   padding: 50px;
   text-align: left;
   margin-right: 60%;
 }
-.rad-tittle {
+.gra-tittle {
   font-weight: 700;
   font-size: 40px;
   color: #ffffff;
   margin-bottom: 20px;
 }
+
+/* Extra Bonus Section 
+  Which name as My Knowledges  in*/
+
+.my-knowledge {
+  text-align: center;
+  margin: 100px 0;
+}
+.my-knowledge hr {
+  margin: 0 400px;
+  background-color: red;
+  padding: 1px;
+}
+.knowledge-info img {
+  height: 50px;
+  width: 50px;
+}
+
+.knowledge {
+  display: flex;
+  gap: 50px;
+  padding: 100px 200px;
+}
+.my-knowledge-tittle {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 20px;
+}
+.knowledge-info {
+  text-align: center;
+  box-shadow: 0px 6px 50px rgba(13, 207, 9, 0.246);
+  border-radius: 100px;
+  padding: 30px;
+}
+.knowledge-tittle {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.knowledge-desc {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+
+/* Footer Section */
+
 .footer {
   display: flex;
   gap: 350px;
@@ -133,7 +194,6 @@
   background-color: #000000;
 }
 .contact {
-  
   text-align: left;
 }
 .f-tittle {
@@ -156,11 +216,11 @@
   padding: 10px 0;
   margin-bottom: 10px;
 }
-.contact a{
+.contact a {
   margin-right: 15px;
 }
-.mesgform input[type="email"]{
-  padding: 10px 15px;
+.mesgform input[type="email"] {
+  padding: 15px 20px;
   width: 100%;
   margin-bottom: 20px;
   border-radius: 10px;
